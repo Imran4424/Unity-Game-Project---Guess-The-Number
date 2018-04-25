@@ -30,6 +30,8 @@ public class GuessTheNumber : MonoBehaviour {
 		{
 			infoText.text = "Your Number Is Less Than The Guess Number";
 		}
+
+		input.text = "";
 	}
 
 }
