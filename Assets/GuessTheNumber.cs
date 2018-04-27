@@ -25,7 +25,7 @@ public class GuessTheNumber : MonoBehaviour {
 
 			StartCoroutine (wait ());
 
-			SceneManager.LoadScene(SceneManager.GetActiveScene);
+			SceneManager.LoadScene(SceneManager.GetActiveScene());
 
 		} else if (userguess > guessnumber) {
 			infoText.text = "Your Number Is Greater Than The Guess Number";
