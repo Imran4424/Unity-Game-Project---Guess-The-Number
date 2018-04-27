@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using 
+using Uni
 
 public class GuessTheNumber : MonoBehaviour {
 
