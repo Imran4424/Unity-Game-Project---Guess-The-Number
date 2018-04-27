@@ -21,6 +21,8 @@ public class GuessTheNumber : MonoBehaviour {
 
 		if (userguess == guessnumber) {
 			infoText.text = "You Guessed The Number! You are a Wizard!!!";
+
+			
 		} 
 		else if (userguess > guessnumber) 
 		{
@@ -33,5 +35,10 @@ public class GuessTheNumber : MonoBehaviour {
 
 		input.text = "";
 	}
+
+	/* IEnumerator wait()
+	{		
+		yield return WaitForSeconds(3);
+	} */
 
 }
