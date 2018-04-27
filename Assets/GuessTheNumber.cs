@@ -23,6 +23,8 @@ public class GuessTheNumber : MonoBehaviour {
 		if (userguess == guessnumber) {
 			infoText.text = "You Guessed The Number! You are a Wizard!!!";
 
+			StartCoroutine
+
 		} else if (userguess > guessnumber) {
 			infoText.text = "Your Number Is Greater Than The Guess Number";
 		} else {
