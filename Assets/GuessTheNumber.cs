@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using (resource)
-{
-	
-}
+using 
 
 public class GuessTheNumber : MonoBehaviour {
 
