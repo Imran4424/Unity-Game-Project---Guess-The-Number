@@ -22,23 +22,18 @@ public class GuessTheNumber : MonoBehaviour {
 		if (userguess == guessnumber) {
 			infoText.text = "You Guessed The Number! You are a Wizard!!!";
 
-			
-		} 
-		else if (userguess > guessnumber) 
-		{
+		} else if (userguess > guessnumber) {
 			infoText.text = "Your Number Is Greater Than The Guess Number";
-		} 
-		else 
-		{
+		} else {
 			infoText.text = "Your Number Is Less Than The Guess Number";
 		}
 
 		input.text = "";
 	}
 
-	/* IEnumerator wait()
-	{		
-		yield return WaitForSeconds(3);
-	} */
+	IEnumerator wait () 
+	{
+		yield return new WaitForSeconds (3);
+	}
 
 }
