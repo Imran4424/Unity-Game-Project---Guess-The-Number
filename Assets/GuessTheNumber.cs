@@ -25,7 +25,6 @@ public class GuessTheNumber : MonoBehaviour {
 
 			//StartCoroutine (wait ());
 
-			
 
 			SceneManager.LoadScene ("Scene0", LoadSceneMode.Single);
 
