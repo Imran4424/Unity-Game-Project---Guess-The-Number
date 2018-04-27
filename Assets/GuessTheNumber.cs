@@ -23,7 +23,7 @@ public class GuessTheNumber : MonoBehaviour {
 		if (userguess == guessnumber) {
 			infoText.text = "You Guessed The Number! You are a Wizard!!!";
 
-			StartCoroutine(wait)
+			StartCoroutine(wait);
 
 		} else if (userguess > guessnumber) {
 			infoText.text = "Your Number Is Greater Than The Guess Number";
