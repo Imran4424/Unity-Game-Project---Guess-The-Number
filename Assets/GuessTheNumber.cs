@@ -34,10 +34,10 @@ public class GuessTheNumber : MonoBehaviour {
 		input.text = "";
 	}
 
-	/* IEnumerator wait () {
+	IEnumerator wait () {
 		yield return new WaitForSeconds (5);
 
 		SceneManager.LoadScene ("Scene0", LoadSceneMode.Single);
-	} */
+	} 
 
 }
